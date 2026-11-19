@@ -1,0 +1,247 @@
+export const materialCatalog={
+  "name": "Apple Hill surface library",
+  "version": "1.0.0",
+  "units": "feet",
+  "resolution": [
+    512,
+    512
+  ],
+  "method": "Original periodic procedural maps authored from visual photo analysis. Not scanned or extracted photographic textures.",
+  "color_space": {
+    "basecolor": "sRGB",
+    "normal": "linear, OpenGL +Y",
+    "roughness": "linear"
+  },
+  "reuse": "Reuse finish IDs and scale at other control points; attach that area\u2019s own evidence before claiming its materials match.",
+  "geometry_limit": "These materials establish no dimensions, underground routes, condition ratings, equipment identity or performance.",
+  "materials": [
+    {
+      "id": "AH-MAT-01",
+      "key": "concrete-weathered",
+      "name": "Weathered cast concrete",
+      "tile_size_ft": 4,
+      "roughness": 0.94,
+      "metalness": 0,
+      "normal_strength": 0.3,
+      "height_scale_ft": 0.035,
+      "source_photo": "../assembly.jpg",
+      "source_sha256": "ebf218e65ec8990b0815443b0edd2f88adc15720aaac86b2f0591d51daf4db4e",
+      "evidence_status": "photo-informed visual approximation",
+      "observation": "WG-3 pale grey cast concrete, pores, formwork seams and vertical damp staining. Stains are generalized; not an inspection of deterioration.",
+      "maps": {
+        "basecolor": "concrete-weathered-basecolor.png",
+        "normal": "concrete-weathered-normal.png",
+        "roughness": "concrete-weathered-roughness.png"
+      }
+    },
+    {
+      "id": "AH-MAT-02",
+      "key": "concrete-walk",
+      "name": "Light concrete walkway",
+      "tile_size_ft": 4,
+      "roughness": 0.9,
+      "metalness": 0,
+      "normal_strength": 0.3,
+      "height_scale_ft": 0.014,
+      "source_photo": "../well.png",
+      "source_sha256": "c082c661ee396abc7e7098e699ca03ceeaaf1b99cead3170d62f284e64434116",
+      "evidence_status": "photo-informed visual approximation",
+      "observation": "Light warm-grey walking surface with fine aggregate. Joint spacing is illustrative.",
+      "maps": {
+        "basecolor": "concrete-walk-basecolor.png",
+        "normal": "concrete-walk-normal.png",
+        "roughness": "concrete-walk-roughness.png"
+      }
+    },
+    {
+      "id": "AH-MAT-03",
+      "key": "brick-red",
+      "name": "West Garage red-brown brick",
+      "tile_size_ft": 4,
+      "roughness": 0.9,
+      "metalness": 0,
+      "normal_strength": 0.3,
+      "height_scale_ft": 0.018,
+      "source_photo": "../non-irrigation-overview.jpg",
+      "source_sha256": "06d34059ee845dca482a318322861d61ff5826e073fde0f741e711bdf7dbb361",
+      "evidence_status": "photo-informed visual approximation",
+      "observation": "Garage red-brown brick infill between pale concrete bands. Brick scale and facade openings remain schematic.",
+      "maps": {
+        "basecolor": "brick-red-basecolor.png",
+        "normal": "brick-red-normal.png",
+        "roughness": "brick-red-roughness.png"
+      }
+    },
+    {
+      "id": "AH-MAT-04",
+      "key": "asphalt",
+      "name": "Road asphalt",
+      "tile_size_ft": 6,
+      "roughness": 0.98,
+      "metalness": 0,
+      "normal_strength": 0.3,
+      "height_scale_ft": 0.022,
+      "source_photo": "../tank.png",
+      "source_sha256": "3b480aa5220e6295f1de7cfadd49c6e0830c4dd76a6e23be8a56d8c344ca4238",
+      "evidence_status": "photo-informed visual approximation",
+      "observation": "Dark-grey road beyond the lawn. Road width and markings are context only.",
+      "maps": {
+        "basecolor": "asphalt-basecolor.png",
+        "normal": "asphalt-normal.png",
+        "roughness": "asphalt-roughness.png"
+      }
+    },
+    {
+      "id": "AH-MAT-05",
+      "key": "turf-autumn",
+      "name": "Autumn lawn",
+      "tile_size_ft": 4,
+      "roughness": 0.98,
+      "metalness": 0,
+      "normal_strength": 0.12,
+      "height_scale_ft": 0.025,
+      "source_photo": "../well.png",
+      "source_sha256": "c082c661ee396abc7e7098e699ca03ceeaaf1b99cead3170d62f284e64434116",
+      "evidence_status": "photo-informed visual approximation",
+      "observation": "Mixed olive/green turf with tan leaf litter from the November site photos. Leaf density is representative.",
+      "maps": {
+        "basecolor": "turf-autumn-basecolor.png",
+        "normal": "turf-autumn-normal.png",
+        "roughness": "turf-autumn-roughness.png"
+      }
+    },
+    {
+      "id": "AH-MAT-06",
+      "key": "soil",
+      "name": "Exposed earth",
+      "tile_size_ft": 3,
+      "roughness": 1,
+      "metalness": 0,
+      "normal_strength": 0.12,
+      "height_scale_ft": 0.035,
+      "source_photo": "../well.png",
+      "source_sha256": "c082c661ee396abc7e7098e699ca03ceeaaf1b99cead3170d62f284e64434116",
+      "evidence_status": "photo-informed visual approximation",
+      "observation": "Brown soil/mulch visible at planted edges. Deep soil layering is illustrative.",
+      "maps": {
+        "basecolor": "soil-basecolor.png",
+        "normal": "soil-normal.png",
+        "roughness": "soil-roughness.png"
+      }
+    },
+    {
+      "id": "AH-MAT-07",
+      "key": "copper-aged",
+      "name": "Aged copper pipe",
+      "tile_size_ft": 1,
+      "roughness": 0.48,
+      "metalness": 0.72,
+      "normal_strength": 0.25,
+      "height_scale_ft": 0.003,
+      "source_photo": "../assembly.jpg",
+      "source_sha256": "ebf218e65ec8990b0815443b0edd2f88adc15720aaac86b2f0591d51daf4db4e",
+      "evidence_status": "photo-informed visual approximation",
+      "observation": "Reddish-brown pipe with muted oxidation in the WG-3 assembly. Finish observed; pipe diameter is not measured.",
+      "maps": {
+        "basecolor": "copper-aged-basecolor.png",
+        "normal": "copper-aged-normal.png",
+        "roughness": "copper-aged-roughness.png"
+      }
+    },
+    {
+      "id": "AH-MAT-08",
+      "key": "galvanized",
+      "name": "Galvanized metal",
+      "tile_size_ft": 2,
+      "roughness": 0.48,
+      "metalness": 0.76,
+      "normal_strength": 0.25,
+      "height_scale_ft": 0.002,
+      "source_photo": "../assembly.jpg",
+      "source_sha256": "ebf218e65ec8990b0815443b0edd2f88adc15720aaac86b2f0591d51daf4db4e",
+      "evidence_status": "photo-informed visual approximation",
+      "observation": "Dull silver-grey conduit, couplings and fittings. Metal grain is synthesized.",
+      "maps": {
+        "basecolor": "galvanized-basecolor.png",
+        "normal": "galvanized-normal.png",
+        "roughness": "galvanized-roughness.png"
+      }
+    },
+    {
+      "id": "AH-MAT-09",
+      "key": "polymer-black",
+      "name": "Black polymer housing",
+      "tile_size_ft": 1,
+      "roughness": 0.56,
+      "metalness": 0,
+      "normal_strength": 0.3,
+      "height_scale_ft": 0.002,
+      "source_photo": "../filter.jpg",
+      "source_sha256": "d096b6daf47147ddd0bd5dffcb361d968f49a513ea29aa5a28ec4c5768cbe7b4",
+      "evidence_status": "photo-informed visual approximation",
+      "observation": "Matte black NETAFIM filter housing and dark pipe fittings; no exact product model inferred.",
+      "maps": {
+        "basecolor": "polymer-black-basecolor.png",
+        "normal": "polymer-black-normal.png",
+        "roughness": "polymer-black-roughness.png"
+      }
+    },
+    {
+      "id": "AH-MAT-10",
+      "key": "enamel-blue",
+      "name": "Blue pressure-tank enamel",
+      "tile_size_ft": 1,
+      "roughness": 0.34,
+      "metalness": 0.12,
+      "normal_strength": 0.25,
+      "height_scale_ft": 0.001,
+      "source_photo": "../components.jpg",
+      "source_sha256": "56358c3a89992e5be6b64d748e8bb24f6ba634d38b87f3ef682259a2c3cbbcea",
+      "evidence_status": "photo-informed visual approximation",
+      "observation": "Bright blue WELL-X-TROL pressure tank visible in WG-3. Color is photo-informed, not color calibrated.",
+      "maps": {
+        "basecolor": "enamel-blue-basecolor.png",
+        "normal": "enamel-blue-normal.png",
+        "roughness": "enamel-blue-roughness.png"
+      }
+    },
+    {
+      "id": "AH-MAT-11",
+      "key": "valve-yellow",
+      "name": "Yellow valve handle",
+      "tile_size_ft": 1,
+      "roughness": 0.43,
+      "metalness": 0.15,
+      "normal_strength": 0.25,
+      "height_scale_ft": 0.001,
+      "source_photo": "../components.jpg",
+      "source_sha256": "56358c3a89992e5be6b64d748e8bb24f6ba634d38b87f3ef682259a2c3cbbcea",
+      "evidence_status": "photo-informed visual approximation",
+      "observation": "Yellow lever handles on the WG-3 ball valves.",
+      "maps": {
+        "basecolor": "valve-yellow-basecolor.png",
+        "normal": "valve-yellow-normal.png",
+        "roughness": "valve-yellow-roughness.png"
+      }
+    },
+    {
+      "id": "AH-MAT-12",
+      "key": "iron-access",
+      "name": "Weathered access iron",
+      "tile_size_ft": 2,
+      "roughness": 0.84,
+      "metalness": 0.58,
+      "normal_strength": 0.25,
+      "height_scale_ft": 0.008,
+      "source_photo": "../non-irrigation-overview.jpg",
+      "source_sha256": "06d34059ee845dca482a318322861d61ff5826e073fde0f741e711bdf7dbb361",
+      "evidence_status": "photo-informed visual approximation",
+      "observation": "Brown cast-metal tank access covers. This material is for tank accesses, never green valve-box covers.",
+      "maps": {
+        "basecolor": "iron-access-basecolor.png",
+        "normal": "iron-access-normal.png",
+        "roughness": "iron-access-roughness.png"
+      }
+    }
+  ]
+};
