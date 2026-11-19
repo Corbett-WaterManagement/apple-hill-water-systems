@@ -1,0 +1,390 @@
+{
+  "property": "MathWorks - Apple Hill",
+  "controlPoint": "AH-2",
+  "drawingStatus": "Wireframe for connection review",
+  "componentKeys": "Documentation keys only; no new field asset IDs",
+  "evidence": {
+    "componentDepthFt": 0.6666666666666666,
+    "gapsFt": [
+      0.5,
+      1
+    ],
+    "gapBasis": "User estimates; interpreted as edge-to-edge gaps for draft.",
+    "boxDimensions": "Owner supplied 14 × 19 × 6 inches; width across flow, length roadward, height. Applied to all three for draft.",
+    "wellDepth": "Unknown; continuation below section is symbolic.",
+    "branchConnections": "Owner confirms gauge and pressure transducer screw into a common metallic tee; its takeoff and pressure-tank connection remain unconfirmed."
+  },
+  "flowDirection": {
+    "sequence": [
+      "box1",
+      "box2",
+      "box3"
+    ],
+    "aerial": "Right to left in user flow schema",
+    "basis": "Owner-annotated images and explicit confirmation"
+  },
+  "assets": [
+    {
+      "id": "well",
+      "box": "box1",
+      "name": "Well head",
+      "p": [
+        1.6666666666666667,
+        0,
+        -0.6666666666666666
+      ],
+      "note": "Identified in your annotated photo. The well head sits approximately 8 inches below lawn grade. The well continues deeper; its depth and construction are unknown.",
+      "fieldAssetId": null,
+      "identityEvidence": "Owner-annotated photo",
+      "depthEvidence": "Owner approximate 8-inch depth; vessel envelopes unmeasured",
+      "photo": "assets/ah-2/box-1.png",
+      "manufacturer": null
+    },
+    {
+      "id": "winter1",
+      "box": "box1",
+      "name": "Winterization connection 1",
+      "p": [
+        1.6666666666666667,
+        -0.5277777777777778,
+        -0.6666666666666666
+      ],
+      "note": "Identified by your “Wint Connection 1” annotation. Exact takeoff and buried fitting arrangement remain unconfirmed. No normal-flow animation enters this service connection.",
+      "fieldAssetId": null,
+      "identityEvidence": "Owner-annotated photo",
+      "depthEvidence": "Owner approximate 8-inch depth; vessel envelopes unmeasured",
+      "photo": "assets/ah-2/box-1.png",
+      "manufacturer": null
+    },
+    {
+      "id": "winter2",
+      "box": "box2",
+      "name": "Winterization connection 2",
+      "p": [
+        0.37916666666666676,
+        -0.15833333333333333,
+        -0.6666666666666666
+      ],
+      "note": "Identified at the left of the supplied box-2 photograph. A service connection; its exact takeoff and operating procedure are unconfirmed.",
+      "fieldAssetId": null,
+      "identityEvidence": "Owner-annotated photo",
+      "depthEvidence": "Owner approximate 8-inch depth; vessel envelopes unmeasured",
+      "photo": "assets/ah-2/box-2.png",
+      "manufacturer": null
+    },
+    {
+      "id": "shutoff",
+      "box": "box2",
+      "name": "Shutoff valve",
+      "p": [
+        -0.4083333333333333,
+        -0.15833333333333333,
+        -0.6666666666666666
+      ],
+      "note": "Identified at the right of the supplied box-2 photograph. Shown beside the conceptual flow line; exact fittings and its order relative to the instrument takeoffs need confirmation.",
+      "fieldAssetId": null,
+      "identityEvidence": "Owner-annotated photo",
+      "depthEvidence": "Owner approximate 8-inch depth; vessel envelopes unmeasured",
+      "photo": "assets/ah-2/box-2.png",
+      "manufacturer": null
+    },
+    {
+      "id": "gauge",
+      "box": "box2",
+      "name": "Pressure gauge",
+      "p": [
+        -0.2041666666666666,
+        0.07916666666666666,
+        -0.6666666666666666
+      ],
+      "note": "Identified by your photo annotation. Screws into the common metallic tee with the pressure transducer, per the owner. Displays pressure at its connection. No pressure range, reading or performance value is inferred.",
+      "fieldAssetId": null,
+      "identityEvidence": "Owner-annotated photo",
+      "depthEvidence": "Owner approximate 8-inch depth; vessel envelopes unmeasured",
+      "photo": "assets/ah-2/box-2.png",
+      "manufacturer": null
+    },
+    {
+      "id": "transducer",
+      "box": "box2",
+      "name": "Pressure transducer",
+      "p": [
+        0.11666666666666678,
+        0.07916666666666666,
+        -0.6666666666666666
+      ],
+      "note": "Identified by your photo annotation. Screws into the common metallic tee with the gauge, per the owner. Converts pressure into an electrical signal. Controller connection and control logic are unconfirmed.",
+      "fieldAssetId": null,
+      "identityEvidence": "Owner-annotated photo",
+      "depthEvidence": "Owner approximate 8-inch depth; vessel envelopes unmeasured",
+      "photo": "assets/ah-2/box-2.png",
+      "manufacturer": null
+    },
+    {
+      "id": "pressure",
+      "box": "box2",
+      "name": "Pressure tank",
+      "p": [
+        0,
+        0.4222222222222222,
+        -0.6666666666666666
+      ],
+      "note": "Identified by your photo annotation. The vessel projects toward Worcester Road, as confirmed by the owner. Vessel proportions and mounting are schematic. Its connection to the main pipe, capacity, precharge and operating logic are unconfirmed.",
+      "fieldAssetId": null,
+      "identityEvidence": "Owner-annotated photo",
+      "depthEvidence": "Owner approximate 8-inch depth; vessel envelopes unmeasured",
+      "photo": "assets/ah-2/box-2.png",
+      "manufacturer": null
+    },
+    {
+      "id": "filter",
+      "box": "box3",
+      "name": "Filter",
+      "p": [
+        -2.166666666666667,
+        0.15833333333333333,
+        -0.6666666666666666
+      ],
+      "note": "Both inlet and outlet connect at the head on the side away from Worcester Road, as confirmed by the owner. Water enters, passes through the roadward-projecting housing, and returns to the outlet at the same building-side end. The internal loop is a flow explanation, not a model of the filter element or internal channels. Port spacing, fittings, manufacturer and model are unconfirmed. The outlet continues straight into the displayed dirt face. The mainline beyond this section remains unconfirmed.",
+      "fieldAssetId": null,
+      "identityEvidence": "Owner-annotated photo",
+      "depthEvidence": "Owner approximate 8-inch depth; vessel envelopes unmeasured",
+      "photo": "assets/ah-2/filter-connections.jpg",
+      "manufacturer": null
+    }
+  ],
+  "boxes": [
+    {
+      "id": "box1",
+      "tag": "1",
+      "name": "Well head",
+      "p": [
+        1.6666666666666667,
+        0,
+        -0.25
+      ],
+      "size": [
+        1.1666666666666667,
+        1.5833333333333333,
+        0.5
+      ],
+      "photo": "box-1.png",
+      "dimensionsStatus": "Owner supplied 14 × 19 × 6 in; applied to all boxes for draft",
+      "orientation": "19-inch length toward Worcester Road",
+      "bottom": "Open lower edge at -6 in; equipment reference -8 in"
+    },
+    {
+      "id": "box2",
+      "tag": "2",
+      "name": "Pressure / control assembly",
+      "p": [
+        0,
+        0,
+        -0.25
+      ],
+      "size": [
+        1.1666666666666667,
+        1.5833333333333333,
+        0.5
+      ],
+      "photo": "box-2.png",
+      "dimensionsStatus": "Owner supplied 14 × 19 × 6 in; applied to all boxes for draft",
+      "orientation": "19-inch length toward Worcester Road",
+      "bottom": "Open lower edge at -6 in; equipment reference -8 in"
+    },
+    {
+      "id": "box3",
+      "tag": "3",
+      "name": "Filter",
+      "p": [
+        -2.166666666666667,
+        0,
+        -0.25
+      ],
+      "size": [
+        1.1666666666666667,
+        1.5833333333333333,
+        0.5
+      ],
+      "photo": "box-3.png",
+      "dimensionsStatus": "Owner supplied 14 × 19 × 6 in; applied to all boxes for draft",
+      "orientation": "19-inch length toward Worcester Road",
+      "bottom": "Open lower edge at -6 in; equipment reference -8 in"
+    }
+  ],
+  "connections": [
+    {
+      "from": "box1",
+      "to": "box2",
+      "status": "User-documented sequence; concealed geometry schematic"
+    },
+    {
+      "from": "box2",
+      "to": "box3",
+      "status": "User-documented sequence; concealed geometry schematic"
+    }
+  ],
+  "sources": [
+    {
+      "file": "assets/ah-2/box-1.png",
+      "original": "well head - first part of  flow path (1).png"
+    },
+    {
+      "file": "assets/ah-2/box-2.png",
+      "original": "Conrol point second box.png"
+    },
+    {
+      "file": "assets/ah-2/box-3.png",
+      "original": "3, last component on flow path.png"
+    },
+    {
+      "file": "assets/ah-2/location.png",
+      "original": "flow schema.png",
+      "note": "Latest revision includes left-pointing flow arrow."
+    },
+    {
+      "file": "IMG_4775.MOV",
+      "note": "Visual context only; original video is not published."
+    },
+    {
+      "file": "assets/ah-2/overarching.png",
+      "original": "overarching.png",
+      "note": "Owner confirms filter and pressure tank project toward Worcester Road, on the +Y side."
+    },
+    {
+      "file": "assets/ah-2/filter-connections.jpg",
+      "original": "codex-clipboard-51e31e82-755e-42b1-85f6-692eec9bd2ec.jpg",
+      "note": "Owner confirms entry and exit at end away from Worcester Road; flow through housing; post-filter route deferred."
+    },
+    {
+      "file": "assets/ah-2/box-dimensions.png",
+      "note": "Owner supplies 14 × 19 × 6 box dimensions; inches and application to all three interpreted for draft."
+    }
+  ],
+  "questions": [
+    "Confirm edge-to-edge gap interpretation",
+    "Confirm branch takeoffs for pressure tank, gauge and transducer",
+    "Confirm internal shutoff and winterization fitting arrangement",
+    "Identify manufacturers/models from labels",
+    "Exact filter port spacing and fittings; internal passage unknown; post-filter route deferred",
+    "Confirm 14 × 19 × 6 in applies to all three boxes and axis assignment."
+  ],
+  "orientation": {
+    "roadwardAxis": "+Y",
+    "source": "Owner instruction and overarching.png",
+    "filterAndPressure": "Project toward Worcester Road; perpendicular to conceptual mainline",
+    "registration": "Relative orientation only; no surveyed bearing or road offset"
+  },
+  "filterFlow": {
+    "inlet": [
+      -2.026666666666667,
+      -0.15833333333333333,
+      -0.6666666666666666
+    ],
+    "outlet": [
+      -2.306666666666667,
+      -0.15833333333333333,
+      -0.6666666666666666
+    ],
+    "sameSide": "Away from Worcester Road / building side",
+    "bodyDirection": "+Y toward Worcester Road",
+    "internalGeometry": "Illustrative flow loop only; exact internal passage and lateral port spacing unknown",
+    "postFilterRoute": "Owner-requested straight continuation to the displayed soil face; beyond section unconfirmed",
+    "points": [
+      [
+        1.6666666666666667,
+        0,
+        -0.6666666666666666
+      ],
+      [
+        1.6666666666666667,
+        -0.15833333333333333,
+        -0.6666666666666666
+      ],
+      [
+        -2.026666666666667,
+        -0.15833333333333333,
+        -0.6666666666666666
+      ],
+      [
+        -2.026666666666667,
+        0.30833333333333335,
+        -0.6666666666666666
+      ],
+      [
+        -2.306666666666667,
+        0.30833333333333335,
+        -0.6666666666666666
+      ],
+      [
+        -2.306666666666667,
+        -0.15833333333333333,
+        -0.6666666666666666
+      ],
+      [
+        -3.7500000000000004,
+        -0.15833333333333333,
+        -0.6666666666666666
+      ]
+    ]
+  },
+  "instrumentTee": {
+    "header": [
+      [
+        -0.2041666666666666,
+        0.07916666666666666,
+        -0.7666666666666666
+      ],
+      [
+        0.11666666666666678,
+        0.07916666666666666,
+        -0.7666666666666666
+      ]
+    ],
+    "stem": [
+      [
+        -0.043749999999999914,
+        0.07916666666666666,
+        -0.7666666666666666
+      ],
+      [
+        -0.043749999999999914,
+        0.22916666666666666,
+        -0.7666666666666666
+      ]
+    ],
+    "risers": [
+      {
+        "id": "gauge",
+        "points": [
+          [
+            -0.2041666666666666,
+            0.07916666666666666,
+            -0.7666666666666666
+          ],
+          [
+            -0.2041666666666666,
+            0.07916666666666666,
+            -0.5866666666666667
+          ]
+        ]
+      },
+      {
+        "id": "transducer",
+        "points": [
+          [
+            0.11666666666666678,
+            0.07916666666666666,
+            -0.7666666666666666
+          ],
+          [
+            0.11666666666666678,
+            0.07916666666666666,
+            -0.6666666666666666
+          ]
+        ]
+      }
+    ],
+    "status": "Owner specifies shared metallic tee; exact dimensions, thread sizes and takeoff remain schematic."
+  }
+}

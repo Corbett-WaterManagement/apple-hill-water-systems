@@ -1,0 +1,360 @@
+{
+  "property": "MathWorks - Apple Hill",
+  "controlPoint": "AH-3",
+  "status": "Connection wireframe; owner estimates with schematic fittings",
+  "fieldAssetIds": "Not supplied; component keys are documentation references",
+  "evidence": {
+    "componentDepthFt": 0.8333333333333334,
+    "wellToFirstBoxEdgeFt": 1,
+    "wellToFirstBoxBasis": "Owner estimate: well head to end of box closest to well",
+    "boxDimensions": "Unmeasured; illustrative wire envelopes",
+    "shutoffToFilterClearGapFt": 1.5,
+    "filterToSensorOffsetsFt": {
+      "horizontal": 2,
+      "roadward": 2,
+      "basis": "Owner estimates; interpreted as pipe-leg offsets"
+    },
+    "turn": "Owner confirms 90-degree turn toward Worcester Road; sensor on roadward leg",
+    "winterization": "Owner correction: vertical connection directly over mainline, aligned with shutoff; rises approximately 6 inches from pipe to about 4 inches below grade; no swing joint",
+    "quickCoupler": "Owner correction: service branch mirrored to building side (-Y), away from Worcester Road; horizontal position and shape retained; service connection raised to approximately 4 inches below grade"
+  },
+  "assets": [
+    {
+      "id": "well",
+      "box": "well",
+      "name": "Well head",
+      "p": [
+        3.8,
+        0,
+        0.2
+      ],
+      "photo": "assets/ah-3/well-head-photo-3.jpg",
+      "note": "The well head is above grade in the AH-3 context photographs. Main pipe reference is approximately 10 inches below grade, from the owner. Well-head projection and well depth are unmeasured; the downward continuation is symbolic.",
+      "fieldAssetId": null,
+      "identityStatus": "Owner-labeled / visible in photo; not independently field-verified",
+      "manufacturer": null
+    },
+    {
+      "id": "winter",
+      "box": "control",
+      "name": "Winterization connection",
+      "p": [
+        2.4,
+        0,
+        -0.33333333333333337
+      ],
+      "photo": "assets/ah-3/isolation-valve-photo-2.jpg",
+      "note": "Owner confirms a direct vertical connection on the mainline, aligned with the shutoff and water path, with no swing joint. The connection rises approximately 6 inches above the pipe. At the estimated 10-inch pipe depth, this places the service point about 4 inches below grade. Normal irrigation water continues along the main pipe; no normal-flow animation rises into the service port.",
+      "fieldAssetId": null,
+      "identityStatus": "Owner-labeled / visible in photo; not independently field-verified",
+      "manufacturer": null
+    },
+    {
+      "id": "shutoff",
+      "box": "control",
+      "name": "Shutoff / isolation valve",
+      "p": [
+        1.9,
+        0,
+        -0.8333333333333334
+      ],
+      "photo": "assets/ah-3/isolation-valve-photo-2.jpg",
+      "note": "Visible yellow-handled valve on the exposed pipe in the supplied photo. Component identity is photo-supported; exact order relative to the quick-coupler tee and winterization takeoff remains to be confirmed.",
+      "fieldAssetId": null,
+      "identityStatus": "Owner-labeled / visible in photo; not independently field-verified",
+      "manufacturer": null
+    },
+    {
+      "id": "quick",
+      "box": "quick",
+      "name": "Quick coupler",
+      "p": [
+        0.7,
+        -0.7,
+        -0.33333333333333337
+      ],
+      "photo": "assets/ah-3/quick-coupler-valve-photo-2.jpg",
+      "note": "Owner-identified quick coupler. The exposed-pipe photo shows a vertical service connection on a tee. It is shown as a branch from the main pipe, with no normal irrigation flow animated into it. Per the owner correction, it is on the building side, opposite Worcester Road; the shape and 0.7-foot drawing offset are retained. The owner places the actual service connection approximately 4 inches below grade, with a 6-inch vertical rise from the approximately 10-inch-deep pipe. The horizontal offset and fitting dimensions remain illustrative.",
+      "fieldAssetId": null,
+      "identityStatus": "Owner-labeled / visible in photo; not independently field-verified",
+      "manufacturer": null
+    },
+    {
+      "id": "filter",
+      "box": "filterbox",
+      "name": "Filter",
+      "p": [
+        -0.8,
+        0.525,
+        -0.8333333333333334
+      ],
+      "photo": "assets/ah-3/filter-photo-2.jpg",
+      "note": "Identified in the source photo and annotated as facing Worcester Road. The housing projects roadward. The owner confirms the housing back is flush with the mainline, with inlet and outlet at that end. Flow enters the roadward housing and returns to the pipe, with no straight-through bypass. The internal loop explains the flow pattern; exact channels, port spacing and fitting dimensions remain schematic.",
+      "fieldAssetId": null,
+      "identityStatus": "Owner-labeled / visible in photo; not independently field-verified",
+      "manufacturer": null
+    },
+    {
+      "id": "sensor",
+      "box": "sensorbox",
+      "name": "Flow sensor",
+      "p": [
+        -2.8,
+        2,
+        -0.8333333333333334
+      ],
+      "photo": "assets/ah-3/flow-sensor-photo-1.jpg",
+      "note": "Identified in the annotated close-up. Flow is marked toward Worcester Road. The owner confirms the sensor is on the roadward leg after a 90-degree turn, approximately 2 feet horizontally and 2 feet roadward from the filter. Electrical wiring is visible in the photo; its circuit and control logic are not modeled.",
+      "fieldAssetId": null,
+      "identityStatus": "Owner-labeled / visible in photo; not independently field-verified",
+      "manufacturer": null
+    }
+  ],
+  "boxes": [
+    {
+      "id": "well",
+      "tag": "1",
+      "name": "Well head",
+      "p": [
+        3.8,
+        0,
+        0
+      ],
+      "size": [
+        0.7,
+        0.7,
+        0
+      ],
+      "shape": "round",
+      "dimensionStatus": "Illustrative; unmeasured"
+    },
+    {
+      "id": "control",
+      "tag": "2",
+      "name": "Winterization / shutoff",
+      "p": [
+        2.1,
+        0,
+        -0.55
+      ],
+      "size": [
+        1.4,
+        1.7,
+        1.1
+      ],
+      "dimensionStatus": "Illustrative; unmeasured"
+    },
+    {
+      "id": "quick",
+      "tag": "3",
+      "name": "Quick coupler",
+      "p": [
+        0.7,
+        -0.7,
+        -0.55
+      ],
+      "size": [
+        0.7,
+        0.7,
+        1.1
+      ],
+      "shape": "round",
+      "dimensionStatus": "Illustrative; unmeasured"
+    },
+    {
+      "id": "filterbox",
+      "tag": "4",
+      "name": "Filter",
+      "p": [
+        -0.8,
+        0,
+        -0.55
+      ],
+      "size": [
+        1.4,
+        1.7,
+        1.1
+      ],
+      "dimensionStatus": "Illustrative; unmeasured"
+    },
+    {
+      "id": "sensorbox",
+      "tag": "5",
+      "name": "Flow sensor",
+      "p": [
+        -2.8,
+        2,
+        -0.55
+      ],
+      "size": [
+        1.4,
+        1.7,
+        1.1
+      ],
+      "dimensionStatus": "Illustrative; unmeasured"
+    }
+  ],
+  "connections": [
+    {
+      "from": "well",
+      "to": "shutoff",
+      "status": "Annotated sequence; local fittings schematic"
+    },
+    {
+      "from": "shutoff",
+      "to": "filter",
+      "status": "Annotated sequence; quick-coupler tee order pending"
+    },
+    {
+      "from": "filter",
+      "to": "sensor",
+      "status": "Owner-confirmed roadward turn; exact fittings schematic"
+    },
+    {
+      "from": "mainline",
+      "to": "quick",
+      "normalFlow": false,
+      "status": "Service branch visible in exposed-pipe photo"
+    },
+    {
+      "from": "mainline",
+      "to": "winter",
+      "normalFlow": false,
+      "status": "Owner-confirmed direct vertical takeoff on mainline; approximately 6-inch rise; no swing joint"
+    }
+  ],
+  "mainPath": [
+    [
+      3.8,
+      0,
+      -0.8333333333333334
+    ],
+    [
+      2.1,
+      0,
+      -0.8333333333333334
+    ],
+    [
+      0.7,
+      0,
+      -0.8333333333333334
+    ],
+    [
+      -0.64,
+      0,
+      -0.8333333333333334
+    ],
+    [
+      -0.64,
+      0.8,
+      -0.8333333333333334
+    ],
+    [
+      -0.96,
+      0.8,
+      -0.8333333333333334
+    ],
+    [
+      -0.96,
+      0,
+      -0.8333333333333334
+    ],
+    [
+      -2.8,
+      0,
+      -0.8333333333333334
+    ],
+    [
+      -2.8,
+      2,
+      -0.8333333333333334
+    ],
+    [
+      -2.8,
+      2.6,
+      -0.8333333333333334
+    ]
+  ],
+  "servicePaths": [
+    {
+      "to": "winter",
+      "points": [
+        [
+          2.4,
+          0,
+          -0.8333333333333334
+        ],
+        [
+          2.4,
+          0,
+          -0.33333333333333337
+        ]
+      ],
+      "normalFlow": false
+    },
+    {
+      "to": "quick",
+      "points": [
+        [
+          0.7,
+          0,
+          -0.8333333333333334
+        ],
+        [
+          0.7,
+          -0.7,
+          -0.8333333333333334
+        ],
+        [
+          0.7,
+          -0.7,
+          -0.33333333333333337
+        ]
+      ],
+      "normalFlow": false
+    }
+  ],
+  "sources": [
+    "assets/ah-3/layout.png",
+    "assets/ah-3/exposed-pipe-annotation.png",
+    "assets/ah-3/aerial-reference.png"
+  ],
+  "videoReview": {
+    "clips": [
+      "20261103_130344000_iOS.MOV",
+      "20261103_131343000_iOS.MOV",
+      "20261103_131415000_iOS.MOV"
+    ],
+    "method": "Sampled frames across each clip; audio not verified; originals not published"
+  },
+  "questions": [
+    "Measure box dimensions",
+    "Confirm relative order of quick-coupler tee, shutoff and winterization takeoff",
+    "Measure quick-coupler offset",
+    "Confirm filter ports and local fittings",
+    "Confirm gap/offset measuring convention",
+    "Post-sensor mainline remains unknown"
+  ],
+  "locationCaution": "Aerial marker labeled disregard is not used as a registered asset position",
+  "ownerCorrections": [
+    "Mirror quick coupler and branch to building side (-Y), opposite Worcester Road, preserving form, offset and depth.",
+    "Winterization is directly over mainline in line with shutoff, not a swing joint; vertical rise approximately 6 inches, service point about 4 inches below grade.",
+    "Quick coupler service point about 4 inches below grade, raised 6 inches from pipe; building-side location retained.",
+    "AH-3 filter back flush with mainline; flow enters roadward housing and returns to pipe with no bypass; internal loop schematic."
+  ],
+  "filterFlow": {
+    "inlet": [
+      -0.64,
+      0,
+      -0.8333333333333334
+    ],
+    "outlet": [
+      -0.96,
+      0,
+      -0.8333333333333334
+    ],
+    "backY": 0,
+    "housingLengthFt": 1.05,
+    "status": "Owner-confirmed flush head and through-housing return flow; internal dimensions illustrative"
+  }
+}

@@ -1,0 +1,626 @@
+{
+  "width": 1986,
+  "height": 792,
+  "baseTransform": [
+    1.022868,
+    0,
+    0,
+    1.018586,
+    -0.212,
+    0.142
+  ],
+  "routes": [
+    {
+      "key": "known-01",
+      "name": "Northern mainline",
+      "classification": "estimated_owner_reported",
+      "points": [
+        [
+          304,
+          54
+        ],
+        [
+          316.6,
+          54.6
+        ],
+        [
+          337.6,
+          59.4
+        ],
+        [
+          363.4,
+          66.6
+        ],
+        [
+          387.4,
+          79.2
+        ],
+        [
+          415,
+          88.8
+        ],
+        [
+          433.6,
+          100.8
+        ],
+        [
+          450.4,
+          114.6
+        ],
+        [
+          460,
+          118.8
+        ],
+        [
+          470.8,
+          116.4
+        ],
+        [
+          486.4,
+          107.4
+        ],
+        [
+          499.6,
+          100.2
+        ],
+        [
+          513.4,
+          90.6
+        ],
+        [
+          525.4,
+          87.6
+        ],
+        [
+          554.2,
+          87
+        ],
+        [
+          574.6,
+          84
+        ],
+        [
+          584.8,
+          81
+        ],
+        [
+          602.2,
+          79.2
+        ],
+        [
+          620.8,
+          76.2
+        ],
+        [
+          637.6,
+          73.8
+        ],
+        [
+          653.2,
+          70.58
+        ],
+        [
+          873,
+          80
+        ],
+        [
+          917,
+          81
+        ],
+        [
+          1170,
+          71
+        ],
+        [
+          1376,
+          90
+        ],
+        [
+          1598,
+          85
+        ]
+      ]
+    },
+    {
+      "key": "known-02",
+      "name": "West-side continuation",
+      "classification": "estimated_owner_reported",
+      "points": [
+        [
+          304,
+          54
+        ],
+        [
+          246,
+          75
+        ],
+        [
+          220,
+          425
+        ]
+      ]
+    },
+    {
+      "key": "known-03",
+      "name": "West Garage-side stub",
+      "classification": "estimated_owner_reported",
+      "points": [
+        [
+          304,
+          54
+        ],
+        [
+          301,
+          113
+        ]
+      ]
+    },
+    {
+      "key": "known-04",
+      "name": "Central downward branch",
+      "classification": "estimated_owner_reported",
+      "points": [
+        [
+          873,
+          80
+        ],
+        [
+          944,
+          159
+        ],
+        [
+          955,
+          275
+        ]
+      ]
+    },
+    {
+      "key": "known-05",
+      "name": "East-side downward branch",
+      "classification": "estimated_owner_reported",
+      "points": [
+        [
+          1519,
+          87
+        ],
+        [
+          1516,
+          95
+        ],
+        [
+          1485,
+          297
+        ]
+      ]
+    },
+    {
+      "key": "known-06",
+      "name": "East-side lateral stub",
+      "classification": "estimated_owner_reported",
+      "points": [
+        [
+          1516,
+          95
+        ],
+        [
+          1650,
+          103
+        ]
+      ]
+    },
+    {
+      "key": "known-07",
+      "name": "AH-3 water-source lead",
+      "classification": "estimated_owner_reported",
+      "points": [
+        [
+          1094,
+          74
+        ],
+        [
+          1094,
+          90
+        ],
+        [
+          1106,
+          90
+        ]
+      ]
+    }
+  ],
+  "estimatedRoutes": [],
+  "flowArrows": [
+    {
+      "p": [
+        302,
+        87
+      ],
+      "v": [
+        0,
+        -1
+      ]
+    },
+    {
+      "p": [
+        241,
+        130
+      ],
+      "v": [
+        0,
+        1
+      ]
+    },
+    {
+      "p": [
+        350.5,
+        63
+      ],
+      "v": [
+        0.963196,
+        0.268799
+      ]
+    },
+    {
+      "p": [
+        441.16,
+        107.01
+      ],
+      "v": [
+        0.772726,
+        0.634739
+      ]
+    },
+    {
+      "p": [
+        675,
+        71
+      ],
+      "v": [
+        1,
+        0
+      ]
+    },
+    {
+      "p": [
+        860,
+        80
+      ],
+      "v": [
+        -1,
+        0
+      ]
+    },
+    {
+      "p": [
+        1075,
+        75
+      ],
+      "v": [
+        -1,
+        0
+      ]
+    },
+    {
+      "p": [
+        1130,
+        73
+      ],
+      "v": [
+        1,
+        0
+      ]
+    },
+    {
+      "p": [
+        1335,
+        86
+      ],
+      "v": [
+        1,
+        0
+      ]
+    },
+    {
+      "p": [
+        1480,
+        88
+      ],
+      "v": [
+        1,
+        0
+      ]
+    },
+    {
+      "p": [
+        1570,
+        86
+      ],
+      "v": [
+        -1,
+        0
+      ]
+    },
+    {
+      "p": [
+        1099,
+        82
+      ],
+      "v": [
+        0,
+        -1
+      ],
+      "length": 10
+    },
+    {
+      "p": [
+        902,
+        112
+      ],
+      "v": [
+        0.67,
+        0.74
+      ]
+    },
+    {
+      "p": [
+        950,
+        220
+      ],
+      "v": [
+        0.1,
+        1
+      ]
+    },
+    {
+      "p": [
+        1504,
+        165
+      ],
+      "v": [
+        -0.15,
+        1
+      ]
+    },
+    {
+      "p": [
+        1560,
+        97.63
+      ],
+      "v": [
+        0.99822,
+        0.0596
+      ],
+      "length": 18
+    },
+    {
+      "p": [
+        1518,
+        89.7
+      ],
+      "v": [
+        -0.35112,
+        0.93633
+      ],
+      "length": 4
+    },
+    {
+      "p": [
+        505.81,
+        95.88
+      ],
+      "v": [
+        0.820905,
+        -0.571064
+      ]
+    }
+  ],
+  "markers": [
+    {
+      "key": "wg",
+      "label": "West Garage water source",
+      "short": "WG",
+      "kind": "primary",
+      "p": [
+        301,
+        107
+      ],
+      "twin": "wireframe.html?view=iso",
+      "note": "",
+      "photos": []
+    },
+    {
+      "key": "ah3",
+      "label": "AH-3 water source",
+      "short": "AH-3",
+      "kind": "primary",
+      "p": [
+        1106,
+        89
+      ],
+      "twin": "ah3.html",
+      "note": "",
+      "photos": []
+    },
+    {
+      "key": "ah2",
+      "label": "AH-2 water source",
+      "short": "AH-2",
+      "kind": "primary",
+      "p": [
+        1605,
+        84
+      ],
+      "twin": "ah2.html",
+      "note": "",
+      "photos": []
+    },
+    {
+      "key": "isolation_between_ah2_ah3",
+      "label": "Isolation valves between AH-2 and AH-3",
+      "kind": "secondary",
+      "p": [
+        1378,
+        90
+      ],
+      "note": "",
+      "related": [
+        "ah2",
+        "ah3"
+      ],
+      "photos": [
+        "assets/auxiliary/isolation_between_ah2_ah3/selected-view.jpg"
+      ],
+      "manufacturer": ""
+    },
+    {
+      "key": "isolation_back_campus",
+      "label": "Isolation to back of campus",
+      "kind": "secondary",
+      "p": [
+        1516,
+        95
+      ],
+      "note": "",
+      "related": [
+        "ah2"
+      ],
+      "photos": [
+        "assets/auxiliary/isolation_back_campus/owner-reference.jpg"
+      ],
+      "manufacturer": ""
+    },
+    {
+      "key": "ah3_aux_pressure",
+      "label": "AH-3 transducer and pressure tank",
+      "kind": "secondary",
+      "p": [
+        955,
+        275
+      ],
+      "note": "A sub-mainline runs through a sleeve to the pressure transducer, which sends pressure readings to the AH-3 well pump VFD.",
+      "related": [
+        "ah3"
+      ],
+      "photos": [
+        "assets/auxiliary/ah3_aux_pressure/1.jpg",
+        "assets/auxiliary/ah3_aux_pressure/2.jpg"
+      ],
+      "manufacturer": ""
+    },
+    {
+      "key": "ah2_aux_vfd",
+      "label": "AH-2 VFD",
+      "kind": "secondary",
+      "p": [
+        1566.7,
+        214.4
+      ],
+      "note": "",
+      "related": [
+        "ah2"
+      ],
+      "photos": [
+        "assets/auxiliary/ah2_aux_vfd/4.jpg",
+        "assets/auxiliary/ah2_aux_vfd/2.jpg",
+        "assets/auxiliary/ah2_aux_vfd/3.jpg"
+      ],
+      "manufacturer": "Xylem"
+    },
+    {
+      "key": "ah2_aux_breaker",
+      "label": "AH-2 Electrical breakers",
+      "kind": "secondary",
+      "p": [
+        1561.7,
+        329.4
+      ],
+      "note": "",
+      "related": [
+        "ah2"
+      ],
+      "photos": [
+        "assets/auxiliary/ah2_aux_breaker/2.jpg",
+        "assets/auxiliary/ah2_aux_breaker/5.jpg",
+        "assets/auxiliary/ah2_aux_breaker/4.jpg",
+        "assets/auxiliary/ah2_aux_breaker/1.jpg",
+        "assets/auxiliary/ah2_aux_breaker/3.jpg"
+      ],
+      "manufacturer": "Square D"
+    },
+    {
+      "key": "ah3_aux_vfd",
+      "label": "AH-3 VFD",
+      "kind": "secondary",
+      "p": [
+        966.6,
+        307.3
+      ],
+      "note": "",
+      "related": [
+        "ah3"
+      ],
+      "photos": [
+        "assets/auxiliary/ah3_aux_vfd/1.jpg",
+        "assets/auxiliary/ah3_aux_vfd/3.jpg",
+        "assets/auxiliary/ah3_aux_vfd/4.jpg"
+      ],
+      "manufacturer": "Xylem"
+    },
+    {
+      "key": "ah3_aux_breaker",
+      "label": "AH-3 Electrical breakers",
+      "kind": "secondary",
+      "p": [
+        1067.3,
+        312.3
+      ],
+      "note": "",
+      "related": [
+        "ah3"
+      ],
+      "photos": [
+        "assets/auxiliary/ah3_aux_breaker/1.jpg",
+        "assets/auxiliary/ah3_aux_breaker/2.jpg",
+        "assets/auxiliary/ah3_aux_breaker/3.jpg",
+        "assets/auxiliary/ah3_aux_breaker/4.jpg"
+      ],
+      "manufacturer": ""
+    },
+    {
+      "key": "wg_aux_pump_vfds",
+      "label": "West Garage well and tank pump VFDs",
+      "kind": "secondary",
+      "p": [
+        272.8,
+        116
+      ],
+      "note": "",
+      "related": [
+        "wg"
+      ],
+      "photos": [
+        "assets/auxiliary/wg_aux_pump_vfds/1.jpg"
+      ],
+      "manufacturer": ""
+    },
+    {
+      "key": "wg_mainline_isolation",
+      "label": "West Garage mainline isolation valve",
+      "kind": "secondary",
+      "p": [
+        460,
+        118.8
+      ],
+      "note": "Isolation valve on the mainline beside West Garage.",
+      "related": [
+        "wg"
+      ],
+      "photos": [
+        "assets/auxiliary/wg_mainline_isolation/valve-closeup.jpg",
+        "assets/auxiliary/wg_mainline_isolation/valve-location.jpg"
+      ],
+      "manufacturer": ""
+    }
+  ],
+  "positionBasis": "Owner-marked image locations; approximate registration, not surveyed."
+}
